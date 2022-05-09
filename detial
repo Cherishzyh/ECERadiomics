@@ -1,0 +1,11 @@
+features.csv             : FAE提取的特征矩阵
+
+features_right.csv       : 从feature.csv中删除阈值大于0.9时二值attention map为0的case
+
+features_right_right.csv : 从feature_right.csv中删除adc图像的形状和纹理特征
+
+########################################################################################################################
+
+test_ref.csv             : 150个测试集的ref
+
+test_ref_right.csv       : 从150case中删除阈值大于0.9时二值attention map为0的case
